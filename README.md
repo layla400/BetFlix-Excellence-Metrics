@@ -2,7 +2,7 @@
 
 This project analyzes the content success on Betflix, a video streaming company used for this study. The data for this project is sourced from Netflix, and we explore trends, patterns, and factors that contribute to the success of movies and TV shows on the platform.
 
-# Project Context 
+# Project Overview
 The goal of this project is to assess the success of Betflix (using Netflix data) content through data-driven analysis. We identify key attributes that drive content popularity, including genre, release year, average user ratings, and viewership numbers. The insights gathered from this analysis could help video streaming platforms make strategic decisions about content creation and curation.
 
 ## Project Motivation
@@ -19,11 +19,11 @@ Build a predictive model to forecast the likelihood of success for upcoming cont
  
 # Data Description
  - **Netflix Contents 2020-2024**
- - **IMDB Score Dataset**
- - **Netflix Contents 2020-2024**
- - **Netflix Contents 2020-2024**
- - **Netflix Contents 2020-2024**
- - **Contents 2020-2024**
+ - **IMDB Dataset**
+ - [**Netflix Userbase**]([Netflix Userbase Dataset](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset/data)
+ - [**Netflix Daily Top 10**](https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us)
+ - [**Netflix Stock History**]_(https://www.kaggle.com/datasets/mayankanand2701/netflix-stock-price-dataset)
+ - [**Netflix Revenue and Usage Statistics**](https://www.kaggle.com/datasets/adnananam/netflix-revenue-and-usage-statistics/data)
  
 ## Methods
 - **Data Cleaning**: Describe key steps.
