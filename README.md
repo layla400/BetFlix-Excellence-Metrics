@@ -20,9 +20,9 @@ Build a predictive model to forecast the likelihood of success for upcoming cont
 # Data Description
  - **Netflix Contents 2020-2024**
  - **IMDB Dataset**
- - [**Netflix Userbase**]([Netflix Userbase Dataset](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset/data)
+ - [**Netflix User Base**](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset/data)
  - [**Netflix Daily Top 10**](https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us)
- - [**Netflix Stock History**]_(https://www.kaggle.com/datasets/mayankanand2701/netflix-stock-price-dataset)
+ - [**Netflix Stock History**](https://www.kaggle.com/datasets/mayankanand2701/netflix-stock-price-dataset)
  - [**Netflix Revenue and Usage Statistics**](https://www.kaggle.com/datasets/adnananam/netflix-revenue-and-usage-statistics/data)
  
 ## Methods
