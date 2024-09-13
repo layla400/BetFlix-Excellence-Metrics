@@ -26,9 +26,9 @@ Build a predictive model to forecast the likelihood of success for upcoming cont
  - [**Netflix Revenue and Usage Statistics**](https://www.kaggle.com/datasets/adnananam/netflix-revenue-and-usage-statistics/data)
  
 ## Methods
-- **Data Cleaning**: Describe key steps.
-- **Exploratory Data Analysis (EDA)**: Mention key tools and insights.
-- **Modeling**: Describe algorithms used (e.g., linear regression, decision trees).
+- **Data Cleaning**:GoogleSheets/Bigquery(SQL)/GoogleColab(Python)
+- **Exploratory Data Analysis (EDA)**: Bigquery(SQL)/GoogleColab(Python)
+- **Dashboarding**: Looker Studio
  
 ## Looker Studio Dashboards and Insights
 
