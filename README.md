@@ -18,12 +18,17 @@ Build a predictive model to forecast the likelihood of success for upcoming cont
 - **Member 4** – Documentation and Reporting
  
 # Data Description
- - **Netflix Contents 2020-2024**
- - **IMDB Dataset**
+ - [**Netflix_titles**](https://www.kaggle.com/datasets/paramvir705/netflix-dataset)
+ - [**IMDB Dataset**](https://docs.google.com/spreadsheets/d/1MnhUFfkANskF_f-JHaWFxpIJPppSrqrY8R05s-A84fQ/edit?gid=1971309909#gid=1971309909)
  - [**Netflix User Base**](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset/data)
- - [**Netflix Daily Top 10**](https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us)
- - [**Netflix Stock History**](https://www.kaggle.com/datasets/mayankanand2701/netflix-stock-price-dataset)
- - [**Netflix Revenue and Usage Statistics**](https://www.kaggle.com/datasets/adnananam/netflix-revenue-and-usage-statistics/data)
+ - [**Global_all_weeks**](https://docs.google.com/spreadsheets/d/198DZVpLAxUZDBlGA5cMYl3-bIJQAdm9h/edit?usp=sharing&ouid=106503551153519138225&rtpof=true&sd=true)
+ - [**Netflix_stock**](https://www.kaggle.com/datasets/mayankanand2701/netflix-stock-price-dataset)
+ - [**Netflix_Global_Revenue**](https://www.kaggle.com/datasets/adnananam/netflix-revenue-and-usage-statistics/data)
+
+ - [**Tables' ERD**](https://lucid.app/lucidchart/5c148e6c-b7a1-41d5-8d01-31189a4c7e86/edit?page=0_0&invitationId=inv_488da03f-fd0f-4428-8153-a8e92569e2d3#)
+![ERD](https://github.com/user-attachments/assets/f05dedba-bba2-49e3-a4d7-8a8a1d08483d)
+
+
  
 ## Methods
 - **Data Cleaning**:GoogleSheets/Bigquery(SQL)/GoogleColab(Python)
