@@ -1,90 +1,100 @@
-# BetFlix-Excellence-Metrics
+# **BetFlix-Excellence-Metrics**
 
-This project analyzes the content success on Betflix, a video streaming company used for this study. The data for this project is sourced from Netflix, and we explore trends, patterns, and factors that contribute to the success of movies and TV shows on the platform.
+This project focuses on analyzing content success metrics for Betflix, a video streaming platform. Using real Netflix data, we explore the trends, patterns, and factors that contribute to the success of TV shows and movies on the platform.
 
-# Project Overview
-The goal of this project is to assess the success of Betflix (using Netflix data) content through data-driven analysis. We identify key attributes that drive content popularity, including genre, release year, average user ratings, and viewership numbers. The insights gathered from this analysis could help video streaming platforms make strategic decisions about content creation and curation.
+## **Project Overview**
 
-## Project Motivation
+The objective is to provide a data-driven assessment of Betflix content. We aim to identify key attributes that drive content popularity, such as genre, release year, user ratings, and viewership metrics. Insights from this analysis will guide strategic decisions in content creation and maximize ROI for the platform.
 
-Identify the top features that determine the success of a TV show or movie on Betflix.
-Provide actionable insights that will guide content strategy decisions to maximize ROI. 
-Build a predictive model to forecast the likelihood of success for upcoming content.
+## **Project Motivation**
 
- 
-# Data Description
- - [**Netflix_titles**](https://www.kaggle.com/datasets/paramvir705/netflix-dataset)
- - [**IMDB Dataset**](https://docs.google.com/spreadsheets/d/1MnhUFfkANskF_f-JHaWFxpIJPppSrqrY8R05s-A84fQ/edit?gid=1971309909#gid=1971309909)
- - [**Netflix User Base**](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset/data)
- - [**Global_all_weeks**](https://docs.google.com/spreadsheets/d/198DZVpLAxUZDBlGA5cMYl3-bIJQAdm9h/edit?usp=sharing&ouid=106503551153519138225&rtpof=true&sd=true)
- - [**Netflix_stock**](https://www.kaggle.com/datasets/mayankanand2701/netflix-stock-price-dataset)
- - [**Netflix_Global_Revenue**](https://www.kaggle.com/datasets/adnananam/netflix-revenue-and-usage-statistics/data)
+1. Identify key features contributing to the success of Betflix content.
+2. Provide actionable insights to optimize content strategy and increase viewership.
+3. Develop a predictive model to forecast the success of future content.
 
- - [**Tables' ERD**](https://lucid.app/lucidchart/5c148e6c-b7a1-41d5-8d01-31189a4c7e86/edit?page=0_0&invitationId=inv_488da03f-fd0f-4428-8153-a8e92569e2d3#)
+---
+
+## **Data Description**
+
+- [**Netflix_titles**](https://www.kaggle.com/datasets/paramvir705/netflix-dataset)
+- [**IMDB Dataset**](https://docs.google.com/spreadsheets/d/1MnhUFfkANskF_f-JHaWFxpIJPppSrqrY8R05s-A84fQ/edit?gid=1971309909#gid=1971309909)
+- [**Netflix User Base**](https://www.kaggle.com/datasets/arnavsmayan/netflix-userbase-dataset/data)
+- [**Global_all_weeks**](https://docs.google.com/spreadsheets/d/198DZVpLAxUZDBlGA5cMYl3-bIJQAdm9h/edit?usp=sharing&ouid=106503551153519138225&rtpof=true&sd=true)
+- [**Netflix_stock**](https://www.kaggle.com/datasets/mayankanand2701/netflix-stock-price-dataset)
+- [**Netflix_Global_Revenue**](https://www.kaggle.com/datasets/adnananam/netflix-revenue-and-usage-statistics/data)
+
+- [**Tables' ERD**](https://lucid.app/lucidchart/5c148e6c-b7a1-41d5-8d01-31189a4c7e86/edit?page=0_0&invitationId=inv_488da03f-fd0f-4428-8153-a8e92569e2d3#)
 ![ERD](https://github.com/user-attachments/assets/f05dedba-bba2-49e3-a4d7-8a8a1d08483d)
 
+---
 
-# Data Exploration 
-## Methods
-- **Data Cleaning**:GoogleSheets/Bigquery(SQL)/GoogleColab(Python)
-- **Exploratory Data Analysis (EDA)**: Bigquery(SQL)/GoogleColab(Python)
+## **Data Exploration**
+
+### **Methods**
+- **Data Cleaning**: GoogleSheets / BigQuery (SQL) / GoogleColab (Python)
+- **Exploratory Data Analysis (EDA)**: BigQuery (SQL) / GoogleColab (Python)
 - **Dashboarding**: Looker Studio
- 
-# Looker Studio Dashboards and Insights
-You can access the Looker studio file from this [link](https://lookerstudio.google.com/u/0/reporting/82a09ffe-b1fc-4b3f-b2db-fb27591a300f/page/p_dh00duy3kd/edit).
 
-## Overview Dashboard
-This page is an overview of the project and the contents to be explored,including the context of the project, hypothsis designed as well as a general summary of the data souce being used.
+---
 
+## **Looker Studio Dashboards and Insights**
 
-## Financial Performance Dashboard
-The Financial Performance dashboard is a page that collected the stock, revenue and subscription performance from 2015-2024. 
+You can access the Looker Studio dashboard from this [link](https://lookerstudio.google.com/u/0/reporting/82a09ffe-b1fc-4b3f-b2db-fb27591a300f/page/p_dh00duy3kd/edit).
 
--**Global Membership Growth**
+### **Overview Dashboard**
 
-First, we decided to take a look over the past 12 years, at both the global revenue and stock prices of Betflix and the subscription. 
-The analysis showed steady and incremental growth. Since subscriptions are the primary source of revenue, there's a strong positive correlation between the two. 
+This dashboard provides an overview of the project, including the context, hypothesis, and a general summary of the data sources used.
 
--**Impact of Successful Content on Memberships**
+### **Financial Performance Dashboard**
 
-The chart Impact of Successful Content on Memberships illustrates the clear relationship between the release of successful content and the annual growth in subscription memberships. It highlights how consistently delivering high-performing content positively influences membership growth.Notably, in 2020, we witnessed the highest subscription growth in the history of the company, which matches the release of the most successful content in that year.This means that to boost revenue, the focus should be on producing content that drives subscription growth - successful content.
+This dashboard focuses on financial metrics such as stock prices, global revenue, and subscription performance from 2015 to 2024.
 
--**Global revenue per release date**
+- **Global Membership Growth**  
+  The analysis reveals steady and incremental growth in both global revenue and subscription numbers over the past 12 years. A strong positive correlation is observed between global memberships and revenue growth, which aligns with the business model of Betflix.
 
-This chart shows that for the shows that are most successful in generating revenue and popularity among the audience are usually released on Friday,this is quite logical, as people easily watch TV programs over the weekend.
+- **Impact of Successful Content on Memberships**  
+  The chart shows the correlation between the release of successful content and the annual growth in subscriptions. In 2020, there was the highest subscription growth, coinciding with the release of successful content.
 
-## Content Analysis Dashboard
-The Content Analysis dashboard is an overview of all the watching contents based on their performance metrics.
+- **Global Revenue by Release Date**  
+  This analysis shows that most successful content is released on Fridays, when users are more likely to engage with streaming platforms over the weekend.
 
--**Top 10 directors' and content on average final score**
+### **Content Analysis Dashboard**
 
-We saw that the top performers correlated with the ones that the highest average final score  as you can see in this chart.
-With the top being Cocomelon of course - with over more than 200 weeks on top 10 on the year 2021-2024.
+This dashboard explores content performance based on metrics like viewership scores, genres, and director impact.
 
--**Distribution of Genres by Age Rating**
+- **Top 10 Directors & Content on Average Final Score**  
+  Directors and content with the highest average final score are displayed, with Cocomelon being the top performer, spending over 200 weeks in the top 10 between 2021-2024.
 
- So we could provide an overview of the distribution of genres across age categories. It illustrates the relative popularity of each one, with comedy and drama largely dominating the other categories. This chart helps visualize general genre trends across different age groups.
+- **Distribution of Genres by Age Rating**  
+  Comedy and drama dominate across all age groups, reflecting general audience preferences.
 
--**Average Viewership score by type**
+- **Average Viewership Score by Type**  
+  TV shows consistently outperform other content types in terms of viewership scores.
 
-Television shows are the most successful type of program and it has the highest viewership score.
+### **User Analysis Dashboard**
 
+This dashboard explores user demographics and behavior patterns.
 
-## User Analysis Dashboard
+- **Users by Continent**  
+  The majority of users come from North America, which corresponds with the platform's heavy focus on English-language content.
 
-The User Analysis dashboard is an explores who are our users and what might be their behavirial patterns.
+- **User Age Distribution**  
+  The age distribution chart shows that a majority of Betflix's users are younger, with a relatively balanced gender distribution. Device usage for streaming is also evenly distributed.
 
--**Users by Continent**
+---
 
-The majority of our users are in North America, which cohere to the fact that the majority of our contents profuced on the platform is in English. 
+## **Challenges and Limitations**
 
--**Users Age partrition**
-This chart combined with the pie charts have shown the demographic information of our users. We have a pretty balanced portion in gender group and subscription type. Our users' age group also tend to be younger.The device usage portfolio is also quite evenly distributed. 
+1. Data availability was limited to certain regions, which might skew some of the global analyses.
+2. There were some missing values and inconsistencies in the data that required extensive cleaning.
 
-## Challenges and Limitations
- 
-## Future Work
+---
 
+## **Future Work**
 
+1. Expand analysis to include more granular data on user engagement (e.g., time spent watching content, repeat views).
+2. Incorporate machine learning models to predict future content success based on historical data.
+3. Explore user preferences by deeper demographic insights (e.g., income, education).
 
+---
 
