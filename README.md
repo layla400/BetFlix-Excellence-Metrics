@@ -344,6 +344,8 @@ This dashboard provides an overview of the project, including the context, hypot
 
 This dashboard focuses on financial metrics such as stock prices, global revenue, and subscription performance from 2015 to 2024.
 
+![FireShot Capture 059 - BetFlix Excellence Metrics - PORTFOLIO Project › Financial Performanc_ - lookerstudio google com](https://github.com/user-attachments/assets/35de78e0-538e-4287-a9d1-e77974cb8101)
+
 - **Global Membership Growth**  
   The analysis reveals steady and incremental growth in both global revenue and subscription numbers over the past 12 years. A strong positive correlation is observed between global memberships and revenue growth, which aligns with the business model of Betflix.
 
@@ -357,6 +359,10 @@ This dashboard focuses on financial metrics such as stock prices, global revenue
 
 This dashboard explores content performance based on metrics like viewership scores, genres, and director impact.
 
+
+![FireShot Capture 057 - BetFlix Excellence Metrics - PORTFOLIO Project › Content Analysis_ - lookerstudio google com](https://github.com/user-attachments/assets/83005616-975c-460c-9f52-f7902ed3402e)
+
+
 - **Top 10 Directors & Content on Average Final Score**  
   Directors and content with the highest average final score are displayed, with Cocomelon being the top performer, spending over 200 weeks in the top 10 between 2021-2024.
 
@@ -369,6 +375,10 @@ This dashboard explores content performance based on metrics like viewership sco
 ### **User Analysis Dashboard**
 
 This dashboard explores user demographics and behavior patterns.
+
+
+![FireShot Capture 058 - BetFlix Excellence Metrics - PORTFOLIO Project › User Analysis_ - lookerstudio google com](https://github.com/user-attachments/assets/1f8d40f7-4388-4544-982d-c0fff0014fba)
+
 
 - **Users by Continent**  
   The majority of users come from North America, which corresponds with the platform's heavy focus on English-language content.
